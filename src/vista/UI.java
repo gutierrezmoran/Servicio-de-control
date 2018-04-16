@@ -273,5 +273,10 @@ public class UI extends JFrame {
 	public void mostrarInformadorDeErrores() {
 		informadorError.setVisible(true);
 	}
+	
+	public void borrarCampos() {
+		this.nombre.setText("");
+		this.movil.setText("");
+	}
 
 }

@@ -21,6 +21,8 @@ public class Bridge extends UI {
 			ocultarInformadorDeErrores();
 			if(!this.control.crearCliente(nombre.getText(), movil.getText())) {
 				mostrarInformadorDeErrores();
+			} else {
+				borrarCampos();
 			}
 		}
 	}
